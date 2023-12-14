@@ -1,0 +1,112 @@
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, table {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para o cabeçalho */
+#header {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+#header button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para a seção de cadastro */
+#cadastro {
+  margin: 20px;
+}
+
+#cadastro h2 {
+  color: #333;
+}
+
+form {
+  margin-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para a lista de jogos */
+#divimagem {
+  margin: 20px;
+}
+
+#divimagem h2 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos para a tabela de jogos */
+.blueTable {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.blueTable th, .blueTable td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.blueTable th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
